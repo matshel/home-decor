@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,18 +12,25 @@ html {
 
 body {
   width: 100%;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Open Sans Condensed", sans-serif;
   background: linear-gradient(to bottom, rgba(191, 155, 139, 0.52), rgba(191, 155, 139, 0.44)), url("/images/regal.png");
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+h1, h2 {
+  font-size: 3rem;
 }
 
 a {
   cursor: pointer;
   text-decoration: none;
   color: #fff;
-}
-
-h2 {
-  font-size: 3rem;
 }
 
 p {
@@ -35,6 +42,7 @@ p {
   top: 10px;
   left: 50px;
   cursor: pointer;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.77), rgba(255, 255, 255, 0.07));
 }
 
 .logo img {
@@ -149,6 +157,7 @@ p {
 }
 
 .hero-section__scroll {
+  font-family: "Oswald", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -383,7 +392,6 @@ p {
 }
 
 /* products page */
-
 .hero-section-products {
   display: flex;
   flex-direction: column;
@@ -421,6 +429,7 @@ p {
 }
 
 .product-section h2 {
+  font-size: 2rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -434,6 +443,7 @@ p {
   margin: 2rem 0;
   background-color: rgba(204, 141, 102, 0.55);
   cursor: pointer;
+  font-family:font-family: 'Open Sans Condensed', sans-serif;;
 }
 
 .button-buy img {
